@@ -14,6 +14,7 @@
 - Desarrollo Web con HTML y CSS
 - Desarrollo Web con Preprocesadores como Sass y Less (Grid Flexbox)
 - Desarrollo Mobile con Flotter
+- Gity GitHub (Sistema de Gestor de Versiones)
 
 ## Computación e Informatica
 
