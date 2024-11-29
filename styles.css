@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222;
+  color: #fff;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin-top: 2rem;
+  color: #f0f0f0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-shadow: 0 0 5px #000;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  text-shadow: 0 0 3px #000;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: left;
+}
+
+li {
+  padding: 1rem 0;
+  border-bottom: 1px solid #444;
+}
+
+li ul {
+  margin-left: 2rem;
+  border-bottom: none;
+}
+
+li ul li {
+  padding-left: 1rem;
+  border-bottom: none;
+}
+
+a {
+  color: #00b0ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.herrameintas-diseño {
+  padding-left: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  ul {
+    max-width: 95%;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  li {
+    padding: 0.8rem 0;
+  }
+}
